@@ -1,0 +1,96 @@
+:root{
+    --main-bg-color: #ffbd59;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aliceblue;
+    font-family: 'Roboto Mono', monospace;
+}
+
+header{
+    width: 100vw;
+    height: 106px;
+    background-color: var(--main-bg-color);
+    display: flex;
+}
+
+.profile-pic{
+    width: 180px; 
+    height: 180px;
+    margin-left: 10%;
+    margin-top: 32px;
+    border: solid 5px;
+    border-color: aliceblue;
+    border-radius: 100%;
+}
+.short-description{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    gap: 16px;
+    margin-left: -20%;
+}
+h3{
+    font-family: 'Questrial', sans-serif;
+    margin: 0;
+}
+
+.menu{
+    display: flex;
+    width: 100vw;
+    height: 106px;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin-top: 24px;
+}
+.menu-btn{
+    text-decoration: none;
+    width: auto;
+    padding: 10px;
+    color: black;
+    border: solid 2px var(--main-bg-color);
+}
+.menu-btn:hover{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 2px black;
+}
+main{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.modulos{
+    width: 50%;
+    margin-top: 40px;
+}
+hr{
+    color: var(--main-bg-color);
+    background-color: #ffbd59;
+    opacity: 0.2;
+}
+.title{
+    margin-top: 40px;
+}
+
+footer{
+    width: 100vw;
+    height: 32px;
+    margin-top: 48px;
+    text-align: center;
+}
+a{
+    text-decoration: wavy;
+    text-decoration-color: black;
+    color: var(--main-bg-color);
+}
