@@ -47,15 +47,19 @@ h3{
     height: 106px;
     justify-content: center;
     align-items: center;
-    gap: 32px;
+    gap: 18px;
     margin-top: 24px;
 }
 .menu-btn{
     text-decoration: none;
     width: auto;
-    padding: 10px;
-    color: black;
-    border: solid 2px var(--main-bg-color);
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+    /* border: solid 2px var(--main-bg-color); */
+    background-color: var(--main-bg-color);
+    border-radius: 10px;
+    font-size: 0.8rem;
 }
 .menu-btn:hover{
     border-top: none;
@@ -93,4 +97,13 @@ a{
     text-decoration: wavy;
     text-decoration-color: black;
     color: var(--main-bg-color);
+}
+.details{
+    margin: 8px;
+}
+.details-div{
+    margin-top: 24px;
+}
+.details-2{
+    margin-left: 18px;
 }
